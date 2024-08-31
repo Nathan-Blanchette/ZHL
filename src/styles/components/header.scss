@@ -1,0 +1,37 @@
+.header {
+    background-color: var(--color-black);
+
+    .wrapper {
+
+        .nav {
+
+            ul {
+                text-decoration: none;
+                margin: 0;
+                padding: 1em 0;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                li {
+
+                    img {
+                        width: 4.69em;
+                        height: 3.38em;
+                    }
+
+                    .links {
+                        color: var(--color-white);
+                        font-family: 'Inter', sans-serif;
+                        font-size: 1.1em;
+
+                        &:hover {
+                            text-decoration: none;
+                            color: var(--color-grey);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
