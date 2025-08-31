@@ -1,42 +1,44 @@
 .header {
     background-color: var(--color-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
         .nav {
-
-            ul {
-                text-decoration: none;
-                margin: 0;
-                padding: 1em 0;
+            .list {
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
+                list-style: none;
+                gap: 5em;
 
                 li {
-
-                    img {
-                        width: 4.69em;
-                        height: 3.38em;
-                    }
-
-                    .links {
+                    a{
                         color: var(--color-white);
-                        font-family: 'Inter', sans-serif;
-                        font-size: 1.1em;
+                        font: var(--font-secondary);
+                        
 
                         &:hover {
-                            text-decoration: none;
-                            color: var(--color-grey);
+                            color: var(--color-lighter-grey);
+                            text-decoration: underline;
                         }
 
-                        .iconConnexion {
-                            .icon {
-                                color: var(--color-white);
-                            }
+                        .logo {
+                            width: 5em;
+                            height: 3.2em;
+                        }
+
+                        .icon {
+                            fill: var(--color-white);
                         }
                     }
-                }
+
+                }  
             }
         }
     }
