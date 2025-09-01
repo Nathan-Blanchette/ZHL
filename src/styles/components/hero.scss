@@ -1,0 +1,102 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    height: 35em;
+
+    .wrapper {
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 0 70px;
+
+        h3{
+            font-size: 2em;
+            margin: 0;
+        }
+
+
+        .asides {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 5%;
+
+
+            .aside {
+                width: 22em;
+                height: 28em;
+
+                position: absolute;
+                top: 10%;
+
+                background-color: var(--color-lighter-grey);
+                border: 2px solid var(--color-grey);
+
+                overflow: hidden;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .stars {
+                    position: absolute;
+                    top: 5%;
+                    left: 5%;
+                }
+
+                .playerpicture {
+                    width: 18em;
+                    height: 17.5em;
+                    z-index: 1;
+                }
+
+                .playerpicture1 {
+                    position: absolute;
+                    right: -15%;
+                    bottom: 9%;
+                }
+
+                .playerpicture2 {
+                    position: absolute;
+                    right: -14%;
+                    bottom: 6%;
+                }
+
+                .playerpicture3 {
+                    position: absolute;
+                    right: -10%;
+                    bottom: 10%;
+                }
+
+                .playername{
+                    position: absolute;
+                    left: 5%;
+                    bottom: 2%;
+                    z-index: 2;
+
+                    color: var(--color-white);
+                    background-color: var(--color-dark-grey);
+                    padding: 0 0.2em;
+                }
+
+                .teambg {
+                    opacity: 10%;
+                }
+            }
+
+            .player2 {
+                left: 40%;
+            }
+
+            .player3{
+                right: 15%;
+            }
+        }
+    }
+}
