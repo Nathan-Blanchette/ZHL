@@ -13,11 +13,11 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        padding: 0 70px;
 
         h3{
             font-size: 2em;
             margin: 0;
+            text-transform: uppercase;
         }
 
 
@@ -91,11 +91,11 @@
             }
 
             .player2 {
-                left: 40%;
+                left: 39.5%;
             }
 
             .player3{
-                right: 15%;
+                right: 12.2%;
             }
         }
     }
